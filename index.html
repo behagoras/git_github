@@ -10,11 +10,20 @@
 			max-width: 100%;
 			vertical-align: top;
 		}
+		img#responsive{
+			display: none;
+		}
+		@media screen and (max-width: 768px) {
+			img#responsive{
+				display: block;
+			}
+		}
 	</style>
 </head>
 <body>
-	<img src="images/header.jpg" alt="" />
-	<img src="images/hero.jpg" alt="" />
-	Hola
+	hotfix1
+	<img id="responsive" src="responsive.webp" alt="" />
+	<img src="nueva-version.webp" alt="" />
+
 </body>
 </html>
